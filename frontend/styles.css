@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body {
+    background-color: #fff;
+    color: #bd3533;
+    font-family: 'Share Tech', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h3, h4, p, i {
+    margin: 10px 0;
+    animation: pulse 0.9s infinite;
+}
+
+.sub-text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inline {
+    display: inline;
+    margin-left: 10px;
+}
+
+.sub-item {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.cursor:after {
+    content: "_";
+    opacity: 0;
+    animation: cursor 1s infinite;
+}
+
+.sign:before {
+    content: "> ";
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cursor {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+#loadingMessage2 {
+    display: none;
+}
