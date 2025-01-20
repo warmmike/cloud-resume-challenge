@@ -2,7 +2,7 @@
 
 ## After doing [my github Kubernetes Resume Challenge](https://github.com/warmmike/kubernetes-resume-challenge) I decided to take on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/).
 
-### This is a work in progress at the moment, but [check it out](https://www.mikecarman.cloud.s3-website-us-east-1.amazonaws.com/)!
+### This is a work in progress at the moment, but [check it out](http://www.mikecarman.cloud.s3-website-us-east-1.amazonaws.com/)!
 
 The Cloud Resume Challenge has you create a static HTML page of your resume and put it in the cloud.
 
